@@ -1,0 +1,88 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family:  sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 900;
+}
+
+.container{
+  max-width: 800px;
+  padding: 0 14px;
+  margin: 0 auto;
+}
+
+#board{
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.rank-parent{
+  margin: 1rem 0;
+}
+
+.rank-content{
+  width: 100%;
+  padding: 1rem;
+}
+.rank-card{
+  background-color: rgb(210, 243, 243);
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.rank-card img{
+  max-width: 100px;
+  /* height: 80px; */
+  object-fit: cover;
+}
+.rank-top{
+  display: flex;
+  width: 100%;
+}
+.rank-top p{
+  margin: 0;
+}
+.rank-top > div{
+  display: flex;
+  align-items: center;
+}
+.rank-top > div > span{
+  margin-right: .4rem;
+}
+.rank-top .rank-count{
+  margin-left: auto;
+}
+
+.rank-count.moveup{
+  color: green;
+}
+.rank-count.movedown{
+  color: red;
+}
+
+.rank-title span{
+  display: none;
+}
+.rank-title.gold span{
+  display: block;
+  color: gold;
+}
+.rank-title.silver span{
+  display: block;
+  color: silver;
+}
+.rank-title.bronze span{
+  display: block;
+  color: rgb(175, 77, 77);
+}
+
+
+.thumb-image{
+  width: 100px;
+}
