@@ -1,3 +1,4 @@
+# A fitness-related web application with React that helps you plan your workout and discover exercises. Built with react and multiple APIs
 # https://gym-app123.netlify.app/
 A fitness-related web application with React that helps you plan your workout and discover exercises
 
